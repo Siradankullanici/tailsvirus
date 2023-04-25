@@ -1,3 +1,4 @@
+apt-get install sudo
 sudo su
 sudo apt-get install dpkg
 sudo apt-get install hdparm && y
