@@ -25,6 +25,7 @@ sudo mount /dev/sdb1 /mnt/usb
 sudo mkdir /mnt/usb
 sudo mount /dev/sdb1 /mnt/usb
 sudo mount /dev/sdd1 /mnt/usb
+sudo mount /dev/sdc1 /mnt/usb
 sudo mount /dev/sdd /mnt/usb
 sudo mkdir /mnt/usb0
 sudo mount /dev/sdd /mnt/usb0
