@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1682510797 source:/home/kali/Documents/Cdiliogrenme/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+
