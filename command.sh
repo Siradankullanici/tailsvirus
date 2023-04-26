@@ -6,10 +6,11 @@ sudo mount -o loop,rw  /media/root/Ventoy/kali-linux-2023.1-installer-amd64.iso 
 sudo apt-get install -y gzip
 sudo mkdir /mnt/sdd
 sudo mkdir /mnt/sdc
-sudo mkdir /mnt/sdb
-sudo mount /dev/sdd /mnt/sdd
-sudo mount /dev/sdc /mnt/sdc
-sudo mount /dev/sdb /mnt/sdb
+sudo mkdir /mnt/sdbsystem("sudo mount /dev/sdd /mnt/sdd");
+system("sudo mount /dev/sdc /mnt/sdc");
+system("sudo mount /dev/sdb /mnt/sdb");system("sudo mount /dev/sdd /mnt/sdd");
+system("sudo mount /dev/sdc /mnt/sdc");
+system("sudo mount /dev/sdb /mnt/sdb");
 sudo apt-get update
 sudo apt-get upgrade
 sudo gunzip -c /media/root/Ventoy/tails-amd64-5.12.img
