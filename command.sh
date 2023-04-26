@@ -3,7 +3,7 @@ sudo su
 sudo apt-get install dpkg
 sudo apt-get install hdparm && y
 sudo mkdir /mnt/mydrive
-sudo mount -o loop,rw  /media/kali/Ventoy/kali-linux-2023.1-installer-amd64.iso /mnt/mydrive
+sudo mount -o loop,rw  /media/root/Ventoy/kali-linux-2023.1-installer-amd64.iso /mnt/mydrive
 sudo apt-get install -y gzip
 sudo mkdir /mnt/sdd
 sudo mkdir /mnt/sdc
